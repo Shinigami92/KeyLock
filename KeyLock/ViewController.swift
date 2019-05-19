@@ -15,8 +15,7 @@ class ViewController: NSViewController {
     var assertionID: IOPMAssertionID = 0
     var success: IOReturn?
     
-    func disableScreenSleep(reason: String = "Unknown reason") -> Bool? {
-        guard success != nil else { return nil }
+    func disableScreenSleep(reason: String = "Unknown reason") -> Bool {
         success = IOPMAssertionCreateWithName(kIOPMAssertionTypeNoDisplaySleep as CFString,
                                               IOPMAssertionLevel(kIOPMAssertionLevelOn),
                                               reason as CFString,
@@ -37,14 +36,29 @@ class ViewController: NSViewController {
     @IBAction func keepScreen(_ sender: NSButtonCell) {
         switch sender.state {
         case .on:
-            print("Enable Screen-Keep-On")
-            disableScreenSleep(reason: "Disabled by KeyLock")
+            if disableScreenSleep(reason: "Disabled by KeyLock") {
+                print("Enable Screen-Keep-On")
+            }
         case .off:
-            print("Disable Screen-Keep On")
-            enableScrenSleep()
+            if enableScrenSleep() {
+                print("Disable Screen-Keep On")
+            }
         default:
             print("Unknow state")
         }
+    }
+    
+    @IBAction func ok(_ sender: NSButton) {
+        AppDelegate.closeWindow(nil)
+    }
+    
+    static func freshController() -> ViewController {
+        let storyboard = NSStoryboard(name: NSStoryboard.Name("Main"), bundle: nil)
+        let identifier = NSStoryboard.SceneIdentifier("ViewController")
+        guard let viewController = storyboard.instantiateController(withIdentifier: identifier) as? ViewController else {
+            fatalError("Why cant i find ViewController? - Check Main.storyboard")
+        }
+        return viewController
     }
     
     override func viewDidLoad() {
