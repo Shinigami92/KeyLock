@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DBD08F52291B1FE000B64AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD08F42291B1FE000B64AB /* AppDelegate.swift */; };
+		9DBD08F72291B1FE000B64AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD08F62291B1FE000B64AB /* ViewController.swift */; };
+		9DBD08F92291B1FF000B64AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DBD08F82291B1FF000B64AB /* Assets.xcassets */; };
+		9DBD08FC2291B1FF000B64AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBD08FA2291B1FF000B64AB /* Main.storyboard */; };
+		9DBD09082291B1FF000B64AB /* KeyLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD09072291B1FF000B64AB /* KeyLockTests.swift */; };
+		9DBD09132291B1FF000B64AB /* KeyLockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD09122291B1FF000B64AB /* KeyLockUITests.swift */; };
+		9DBD09222291BB50000B64AB /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBD09212291BB50000B64AB /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DBD09042291B1FF000B64AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DBD08E92291B1FE000B64AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DBD08F02291B1FE000B64AB;
+			remoteInfo = KeyLock;
+		};
+		9DBD090F2291B1FF000B64AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DBD08E92291B1FE000B64AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DBD08F02291B1FE000B64AB;
+			remoteInfo = KeyLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DBD08F12291B1FE000B64AB /* KeyLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DBD08F42291B1FE000B64AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DBD08F62291B1FE000B64AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DBD08F82291B1FF000B64AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DBD08FB2291B1FF000B64AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DBD08FD2291B1FF000B64AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DBD08FE2291B1FF000B64AB /* KeyLock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyLock.entitlements; sourceTree = "<group>"; };
+		9DBD09032291B1FF000B64AB /* KeyLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DBD09072291B1FF000B64AB /* KeyLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyLockTests.swift; sourceTree = "<group>"; };
+		9DBD09092291B1FF000B64AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DBD090E2291B1FF000B64AB /* KeyLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DBD09122291B1FF000B64AB /* KeyLockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyLockUITests.swift; sourceTree = "<group>"; };
+		9DBD09142291B1FF000B64AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DBD09212291BB50000B64AB /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DBD08EE2291B1FE000B64AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBD09222291BB50000B64AB /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DBD09002291B1FF000B64AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DBD090B2291B1FF000B64AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DBD08E82291B1FE000B64AB = {
+			isa = PBXGroup;
+			children = (
+				9DBD08F32291B1FE000B64AB /* KeyLock */,
+				9DBD09062291B1FF000B64AB /* KeyLockTests */,
+				9DBD09112291B1FF000B64AB /* KeyLockUITests */,
+				9DBD08F22291B1FE000B64AB /* Products */,
+				9DBD09202291BB50000B64AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DBD08F22291B1FE000B64AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DBD08F12291B1FE000B64AB /* KeyLock.app */,
+				9DBD09032291B1FF000B64AB /* KeyLockTests.xctest */,
+				9DBD090E2291B1FF000B64AB /* KeyLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DBD08F32291B1FE000B64AB /* KeyLock */ = {
+			isa = PBXGroup;
+			children = (
+				9DBD08F42291B1FE000B64AB /* AppDelegate.swift */,
+				9DBD08F62291B1FE000B64AB /* ViewController.swift */,
+				9DBD08F82291B1FF000B64AB /* Assets.xcassets */,
+				9DBD08FA2291B1FF000B64AB /* Main.storyboard */,
+				9DBD08FD2291B1FF000B64AB /* Info.plist */,
+				9DBD08FE2291B1FF000B64AB /* KeyLock.entitlements */,
+			);
+			path = KeyLock;
+			sourceTree = "<group>";
+		};
+		9DBD09062291B1FF000B64AB /* KeyLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DBD09072291B1FF000B64AB /* KeyLockTests.swift */,
+				9DBD09092291B1FF000B64AB /* Info.plist */,
+			);
+			path = KeyLockTests;
+			sourceTree = "<group>";
+		};
+		9DBD09112291B1FF000B64AB /* KeyLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DBD09122291B1FF000B64AB /* KeyLockUITests.swift */,
+				9DBD09142291B1FF000B64AB /* Info.plist */,
+			);
+			path = KeyLockUITests;
+			sourceTree = "<group>";
+		};
+		9DBD09202291BB50000B64AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DBD09212291BB50000B64AB /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DBD08F02291B1FE000B64AB /* KeyLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DBD09172291B1FF000B64AB /* Build configuration list for PBXNativeTarget "KeyLock" */;
+			buildPhases = (
+				9DBD08ED2291B1FE000B64AB /* Sources */,
+				9DBD08EE2291B1FE000B64AB /* Frameworks */,
+				9DBD08EF2291B1FE000B64AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyLock;
+			productName = KeyLock;
+			productReference = 9DBD08F12291B1FE000B64AB /* KeyLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DBD09022291B1FF000B64AB /* KeyLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DBD091A2291B1FF000B64AB /* Build configuration list for PBXNativeTarget "KeyLockTests" */;
+			buildPhases = (
+				9DBD08FF2291B1FF000B64AB /* Sources */,
+				9DBD09002291B1FF000B64AB /* Frameworks */,
+				9DBD09012291B1FF000B64AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DBD09052291B1FF000B64AB /* PBXTargetDependency */,
+			);
+			name = KeyLockTests;
+			productName = KeyLockTests;
+			productReference = 9DBD09032291B1FF000B64AB /* KeyLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DBD090D2291B1FF000B64AB /* KeyLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DBD091D2291B1FF000B64AB /* Build configuration list for PBXNativeTarget "KeyLockUITests" */;
+			buildPhases = (
+				9DBD090A2291B1FF000B64AB /* Sources */,
+				9DBD090B2291B1FF000B64AB /* Frameworks */,
+				9DBD090C2291B1FF000B64AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DBD09102291B1FF000B64AB /* PBXTargetDependency */,
+			);
+			name = KeyLockUITests;
+			productName = KeyLockUITests;
+			productReference = 9DBD090E2291B1FF000B64AB /* KeyLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DBD08E92291B1FE000B64AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Shinigami;
+				TargetAttributes = {
+					9DBD08F02291B1FE000B64AB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					9DBD09022291B1FF000B64AB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9DBD08F02291B1FE000B64AB;
+					};
+					9DBD090D2291B1FF000B64AB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9DBD08F02291B1FE000B64AB;
+					};
+				};
+			};
+			buildConfigurationList = 9DBD08EC2291B1FE000B64AB /* Build configuration list for PBXProject "KeyLock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DBD08E82291B1FE000B64AB;
+			productRefGroup = 9DBD08F22291B1FE000B64AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DBD08F02291B1FE000B64AB /* KeyLock */,
+				9DBD09022291B1FF000B64AB /* KeyLockTests */,
+				9DBD090D2291B1FF000B64AB /* KeyLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DBD08EF2291B1FE000B64AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBD08F92291B1FF000B64AB /* Assets.xcassets in Resources */,
+				9DBD08FC2291B1FF000B64AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DBD09012291B1FF000B64AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DBD090C2291B1FF000B64AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DBD08ED2291B1FE000B64AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBD08F72291B1FE000B64AB /* ViewController.swift in Sources */,
+				9DBD08F52291B1FE000B64AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DBD08FF2291B1FF000B64AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBD09082291B1FF000B64AB /* KeyLockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DBD090A2291B1FF000B64AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBD09132291B1FF000B64AB /* KeyLockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DBD09052291B1FF000B64AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DBD08F02291B1FE000B64AB /* KeyLock */;
+			targetProxy = 9DBD09042291B1FF000B64AB /* PBXContainerItemProxy */;
+		};
+		9DBD09102291B1FF000B64AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DBD08F02291B1FE000B64AB /* KeyLock */;
+			targetProxy = 9DBD090F2291B1FF000B64AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DBD08FA2291B1FF000B64AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DBD08FB2291B1FF000B64AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DBD09152291B1FF000B64AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DBD09162291B1FF000B64AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9DBD09182291B1FF000B64AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyLock/KeyLock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.shini.KeyLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9DBD09192291B1FF000B64AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyLock/KeyLock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.shini.KeyLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9DBD091B2291B1FF000B64AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.shini.KeyLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyLock.app/Contents/MacOS/KeyLock";
+			};
+			name = Debug;
+		};
+		9DBD091C2291B1FF000B64AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.shini.KeyLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyLock.app/Contents/MacOS/KeyLock";
+			};
+			name = Release;
+		};
+		9DBD091E2291B1FF000B64AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.shini.KeyLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = KeyLock;
+			};
+			name = Debug;
+		};
+		9DBD091F2291B1FF000B64AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.shini.KeyLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = KeyLock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DBD08EC2291B1FE000B64AB /* Build configuration list for PBXProject "KeyLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DBD09152291B1FF000B64AB /* Debug */,
+				9DBD09162291B1FF000B64AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DBD09172291B1FF000B64AB /* Build configuration list for PBXNativeTarget "KeyLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DBD09182291B1FF000B64AB /* Debug */,
+				9DBD09192291B1FF000B64AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DBD091A2291B1FF000B64AB /* Build configuration list for PBXNativeTarget "KeyLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DBD091B2291B1FF000B64AB /* Debug */,
+				9DBD091C2291B1FF000B64AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DBD091D2291B1FF000B64AB /* Build configuration list for PBXNativeTarget "KeyLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DBD091E2291B1FF000B64AB /* Debug */,
+				9DBD091F2291B1FF000B64AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DBD08E92291B1FE000B64AB /* Project object */;
+}
